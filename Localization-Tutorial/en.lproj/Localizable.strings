@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Localization-Tutorial
+
+  Created by Aman Aggarwal on 18/08/18.
+  Copyright © 2018 Aman Aggarwal. All rights reserved.
+*/
+"header_text" = "Current Language";
+"change_language" = "Change Language";
