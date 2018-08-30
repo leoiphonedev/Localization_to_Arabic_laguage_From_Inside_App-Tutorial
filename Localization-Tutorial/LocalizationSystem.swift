@@ -65,6 +65,10 @@ class LocalizationSystem:NSObject {
     func getLanguage() -> String {
         let appleLanguages = UserDefaults.standard.object(forKey: "AppleLanguages") as! [String]
         let prefferedLanguage = appleLanguages[0]
+        if prefferedLanguage.contains("-") {
+            let array = prefferedLanguage.components(separatedBy: "-")
+            return array[0]
+        }
         return prefferedLanguage
     }
     
